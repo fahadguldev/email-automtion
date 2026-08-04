@@ -1,0 +1,53 @@
+# Environment variables & secrets
+.env
+*.env
+!.env.example
+!example.env
+credentials.json
+client_secret*.json
+token.json
+*.pem
+*.key
+
+# User personal data & application logs
+emails.txt
+sent.txt
+send_log.txt
+*.log
+
+# Personal resume / CV documents
+*.pdf
+*.docx
+
+# Python virtual environments & version configuration
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# Python byte-compiled / cache / build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+build/
+dist/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Testing & Linting caches
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# OS & IDE temporary files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
