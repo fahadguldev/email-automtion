@@ -27,11 +27,11 @@ INSTALL DEPENDENCIES:
     pip install google-api-python-client google-auth-httplib2 google-auth-oauthlib
 
 USAGE:
-    # 1. Preview/Dry-run first:
-    python send_applications_gmail_api.py --emails emails.txt --cv fahad_cv.pdf --dry-run
+    # 1. Preview/Dry-run first:2wsxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    python3 send_applications_gmail_api.py --emails emails.txt --cv fahad_cv.pdf --dry-run
 
     # 2. Authenticate & Send (will open browser window on first run to authorize):
-    python send_applications_gmail_api.py --emails emails.txt --cv fahad_cv.pdf
+    python3 send_applications_gmail_api.py --emails emails.txt --cv CV_Fahad.pdf
 """
 
 import argparse
